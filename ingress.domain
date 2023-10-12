@@ -1,0 +1,2 @@
+export DOMAIN="$(minikube ip).nip.io"
+jx gitops requirements edit --domain $DOMAIN
